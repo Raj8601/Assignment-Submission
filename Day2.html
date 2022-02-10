@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Assignment Day 2</title>
+</head>
+<body>
+	<script>
+
+		//table of 5
+		console.log("\ntable of 5");
+		var num=5,i=1,res;
+		while(i<=10)
+		{
+			res=num*i;
+			i++;
+			console.log(num+"*"+i+"="+res);
+		}
+
+
+		//five variable to hold value
+		console.log("\n5 variable to Hold value");
+		const hindi=65,english=87,maths=65,science=82,art=84;
+		console.log("hindi = ",hindi);
+		console.log("english = ",english);
+		console.log("maths = ",maths);
+		console.log("science = ",science);
+		console.log("art = ",art);
+
+
+		//find percentage and grade
+		console.log("\nfind percentage and grade");
+		const marks=600,total=503;
+		var percent;
+		perc=(503/600)*100;
+		console.log("percentage = ",perc);
+		if(perc>=90)
+		{
+			console.log("Grade A");
+		}
+		else if(perc<90 && perc>=80)
+		{
+			console.log("Grade B");
+		}
+		else if(perc<80 && perc>=70)
+		{
+			console.log("Grade C");
+		}
+		else if(perc<70 && perc>=60)
+		{
+			console.log("Grade D");
+		}
+		else if(perc<60 && perc>=50)
+		{
+			console.log("Grade E");
+		}
+		else if(perc<50 && perc>=40)
+		{
+			console.log("Grade F");
+		}
+		else if(perc<40)
+		{
+			console.log("Fail");
+		}
+	</script>
+</body>
+</html>
